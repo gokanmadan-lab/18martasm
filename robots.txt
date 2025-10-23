@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://can18martasm.com.tr/sitemap.xml
