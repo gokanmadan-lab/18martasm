@@ -1,11 +1,9 @@
 <!doctype html><html lang="tr"><head>
-<title>18 Mart Aile Sağlığı Merkezi - Çanakkale</title>
 <meta name="description" content="Çanakkale 18 Mart Aile Sağlığı Merkezi resmi web sitesi. Ekibimiz, hizmetlerimiz ve iletişim bilgilerimiz.">
 <meta name="keywords" content="aile sağlığı, sağlık ocağı, çanakkale, doktor, hemşire">
 <meta name="author" content="18 Mart ASM">
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>İletişim</title>
-<meta name="description" content="Çan 18 Mart ASM: deneyimli ekiple güvenilir ve erişilebilir sağlık hizmetleri."/>
 <link rel="canonical" href="https://can18martasm.com.tr/iletisim.html"/>
 <link rel="stylesheet" href="assets/css/styles.css"/>
 <link rel="icon" href="assets/img/favicon.png"/>
@@ -71,18 +69,15 @@
     </p>
   </div>
   <!-- Sağ sütun (iletişim formu) -->
-  <form action="https://formsubmit.co/can18martasm@gmail.com" method="POST" class="card form">
-  <!-- Güvenlik/ayar alanları -->
-  <input type="hidden" name="_subject" value="İletişim Formu - can18martasm.com.tr">
-  <input type="hidden" name="_captcha" value="false">                <!-- reCAPTCHA kapalıysa -->
-  <input type="hidden" name="_template" value="table">               <!-- e-postayı tablo gibi yollar -->
-  <input type="hidden" name="_next" value="https://can18martasm.com.tr/tesekkurler.html">
-  <!-- Honeypot (botları yakalamak için görünmez alan) -->
-  <input type="text" name="_honey" style="display:none">
+<form action="https://formspree.io/f/mgvpalan" method="POST" class="card form" accept-charset="UTF-8">
+  <input type="hidden" name="_subject"  value="İletişim Formu - can18martasm.com.tr">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next"     value="/tesekkurler.html"> <!-- relatif yönlendirme -->
+  <input type="text"   name="_honey" style="display:none">         <!-- honeypot -->
 
   <label>Ad Soyad*<input type="text" name="adsoyad" required></label>
-  <label>Telefon*<input type="tel" name="telefon" required></label>
-  <label>Mesaj*<textarea name="mesaj" rows="5" required></textarea></label>
+  <label>Telefon*  <input type="tel"  name="telefon" required></label>
+  <label>Mesaj*    <textarea name="mesaj" rows="5" required></textarea></label>
 
   <label class="kvkk">
     <input type="checkbox" name="kvkk" required>
@@ -91,7 +86,6 @@
 
   <button type="submit" class="btn btn-primary">Gönder</button>
 </form>
-
 </section>
 <h2 class="centered-title">Diğer Konumlar</h2>
 <section class="container maps-two" aria-label="Haritalar">
