@@ -585,3 +585,30 @@ img{max-width:100%;height:auto}.container{max-width:1100px;margin:0 auto;padding
   margin: 40px 0 20px;
   font-weight: 700;
 }
+/* Çalışma Saatleri: A/B 2 kolon */
+.hours-grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:16px;
+  margin-top:12px;
+}
+
+.hours-card{
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border, rgba(0,0,0,.08));
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.hours-card h3{
+  margin: 0 0 6px 0;
+}
+
+.hours-card .note{
+  margin-top: 10px;
+}
+
+/* Mobilde tek kolona düşsün */
+@media (max-width: 820px){
+  .hours-grid{ grid-template-columns: 1fr; }
+}
